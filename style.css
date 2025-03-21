@@ -64,7 +64,7 @@ main {
     padding: 0vw 10vw;
 }
 .sustain{
-    width: 10vw;
+    width: 13vw;
     margin-bottom: 14vw;
 }
 .sustain h5 , p{
@@ -80,17 +80,13 @@ main {
 .sustain .susimagewrapper{
     width: 100%;
     height: 15vw;
-    background-color: rebeccapurple;
     position: relative;
     overflow: hidden;
 }
 .susimagewrapper img{
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50% , -50%);
-    width: 140%;
-    height: 140%;
+    margin-top: 1vh;
+    width: 120%;
+    height: 120%;
     object-fit: cover;
 }
 #ephemral{
@@ -200,7 +196,6 @@ main {
     width: 17vw;
     height: 28vw;
     margin-bottom: 2vw;
-    background-color: rebeccapurple;
 }
 .firstimg{
     width: 17vw;
@@ -222,7 +217,6 @@ main {
     width: 23vw;
     height: 35vw;
     margin-bottom: 2vw;
-    background-color: rebeccapurple;
 }
 .secondimg{
     width: 23vw;
@@ -244,4 +238,75 @@ main {
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+#banner{
+    width: 100%;
+    margin-top: 8vw;
+    display: flex;
+    gap: 4vw;
+    align-items: center;
+}
+.bimg{
+    width: 65%;
+    height: 60vh;
+}
+.bimg img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 0% 70%;
+}
+.btext h1{
+    font-family: "Poppins";
+    text-transform: capitalize;
+    font-size: 2.4vw;
+    line-height: 1.2;
+}
+.btext p {
+    opacity: .6;
+    margin-top: 20px;
+    width: 75%;
+}
+#future{
+    width: 100%;
+    height: 100vh;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+}
+#future video{
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    object-fit: cover;
+}
+#future h1 {
+    font-family: "Poppins";
+    font-weight: 500;
+    text-transform: capitalize;
+    font-size: 1.5vw;
+}
+#ftext{
+    position: relative;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3vh;
+}
+#ftext button{
+    border: 1px solid rgb(58, 58, 58);
+    border-radius: 20px;
+    padding: 1vw 3vw;
+    background-color: transparent;
 }
